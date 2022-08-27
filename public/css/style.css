@@ -325,9 +325,8 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
-  margin-top: 10px;
-  background: #fff;
+  width: 460px;
+  background: transparent;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
@@ -337,7 +336,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 80px 0;
+  padding: 60px 0;
   background: #1A1A1A;
   color: #fff;
 }
@@ -527,7 +526,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 40px 0 40px;
   background: #1A1A1A;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -554,8 +553,8 @@ header .intro-text {
 }
 #contact h3 {
   color: #fff;
-  margin-top: 80px;
   margin-bottom: 25px;
+  margin-right: 20px;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -617,7 +616,12 @@ label {
   color: #777;
 }
 #contact .contact-item {
-  margin: 20px 0;
+  margin: 20px 20px;
+}
+@media (min-width:1024px) {
+  #contact .contact-container{
+    display: flex;
+  }
 }
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
