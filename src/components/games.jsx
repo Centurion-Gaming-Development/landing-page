@@ -12,7 +12,7 @@ export const Games = (props) => {
                   {' '}
                   {/* <i className={d.icon}></i> */}
                   <div className="game-icon-container">
-                  <img className="game-icon" src={d.img}></img>
+                  <img className="game-icon" src={d.img} alt=""></img>
                   </div>
                   <h3>{d.title}</h3>
                   {/* <p>{d.text}</p> */}

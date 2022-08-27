@@ -18,7 +18,7 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href='#page-top'>
             Centurion Gaming
           </a>{' '}
-          <img src="../img/centurion-logo.png" className="menulogo"></img>
+          <img src="../img/centurion-logo.png" alt="" className="menulogo"></img>
         </div>
 
         <div
