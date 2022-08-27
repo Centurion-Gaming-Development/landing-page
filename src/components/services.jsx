@@ -1,5 +1,4 @@
 import { FontIcon, PeopleGroupIcon } from "./icon"
-import { GroupIcon } from "./icon.tsx"
 
 export const Services = (props) => {
   return (
